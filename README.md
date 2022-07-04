@@ -1,38 +1,22 @@
-# Syntax
+# Remix example
 
-Syntax is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+This example deploys self-hosted version of [Remix](https://remix.run/) using their [indie-stack](https://github.com/remix-run/indie-stack). Internally it uses a PostgreSQL database to store the data.
 
-## Getting started
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/remix?referralCode=faraz)
 
-To get started with this template, first install the npm dependencies:
+## ✨ Features
 
-```bash
-npm install
-cp .env.example .env.local
-```
+- Remix
+- TypeScript
+- PostgreSQL
 
-Next, run the development server:
+## 💁‍♀️ How to use
 
-```bash
-npm run dev
-```
+- Click the Railway button 👆
+- Add the `SESSION_SECRET` environment variable
+  - You can hit CMD+K and use our secret generator
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## 📝 Notes
 
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## License
-
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Markdoc](https://markdoc.io) - the official Markdoc documentation
-- [DocSearch](https://docsearch.algolia.com) - the official DocSearch documentation
+- [Official docs](https://remix.run/docs/en/v1)
+- A [video](https://youtu.be/1uebyGwAGvg) introducing the stack

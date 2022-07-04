@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tailwindui-syntax.iml" filepath="$PROJECT_DIR$/.idea/tailwindui-syntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/indie-stack-ms.iml" filepath="$PROJECT_DIR$/.idea/indie-stack-ms.iml" />
     </modules>
   </component>
 </project>
